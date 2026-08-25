@@ -1,7 +1,7 @@
 base   templatepagepath
 author Michael Braun
 email  michael-dev@fami-braun.de
-date   2016-06-15
+date   2026-08-25
 name   templatepagepath plugin
 desc   Set a default template page path
 url    https://dokuwiki.org/plugin:templatepagepath
