@@ -15,7 +15,7 @@ class action_plugin_templatepagepath_TemplatePagePath extends DokuWiki_Action_Pl
        $controller->register_hook('COMMON_PAGETPL_LOAD', 'BEFORE', $this, 'handle_common_pagetpl_load');
     }
 
-    public function handle_common_pagetpl_load(Doku_Event &$event, array $param): void {
+    public function handle_common_pagetpl_load(Doku_Event &$event, $param = null): void {
 	    global $conf;
 
 	    // from here is it almost the same code as inc/common.php pageTemplate
